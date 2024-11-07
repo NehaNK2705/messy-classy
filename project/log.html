@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding:0px;
+            margin:0px;
+            box-sizing: border-box;
+            /* color:white; */
+            
+        }
+        body{
+            height:100vh;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url(../project/p0.webp);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size:cover;
+        }
+        .container{
+            height:450px;
+            width:450px;
+            border:1px solid rgb(10, 10, 10);
+            border-radius: 20px;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            background: transparent;
+            backdrop-filter:blur(20px);
+
+        }
+        form{
+            height:100%;
+            width:80%;
+        }
+        h1{
+            text-align: center;
+            align-items: center;
+            margin:40px 0px;
+        }
+        .inputbox{
+            width:100%;
+            height:45px;
+            border:1px solid black;
+            border-radius:30px;
+            position:relative;
+            margin:40px 0px;
+
+
+
+
+        }
+        .inputbox  input{
+            height:100%;
+            width: 100%;
+            border-radius: 30px;
+            margin:0px 0px 0px 0px;
+            outline:none;
+            padding:20px;
+
+        }
+        .inputbox label{
+            position:absolute;
+            left:20px;
+            margin:-27px 0px 0px 0px;
+        }
+        .forgot-div{
+            height:50px;
+            margin:5px 10px 0px 0px;
+            padding:10px;
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+
+
+
+        }
+        button{
+            height:40px;
+            width:50%;
+            background-color: rgb(163, 97, 148);
+            border:1px solid rgb(14, 2, 2);
+            border-radius:30px;
+            margin: 10px 0px 0px 86px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        p{
+            padding:20px;
+            text-align: center;
+            align-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form action="">
+            <h1>LOGIN</h1>
+            <div class="inputbox" >
+                <label for="email">Email:</label>
+                <input type="email" placeholder="Enter a email">
+               
+            </div>
+            <div class="inputbox">
+                <label for="password">Password:</label>
+                <input type="password" placeholder="Enter password">
+               
+            </div>
+           <div class="forgot-div">
+            <label for="checkbox"><input type="checkbox">Remember me</label>
+            <label for="">Forgot?</label>
+           </div>
+           <div>
+            <button>LOGIN</button>
+            <p>dont have an account?<a href="i3.html">Register</a></p>
+            </form>
+            </div>
+        </diV>
+            </body>
+</html>
